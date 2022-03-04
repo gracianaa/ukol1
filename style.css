@@ -1,7 +1,72 @@
-header{
+.hlavička{
+    text-align: center;
+    background-color:darkslategrey;
+    color:gainsboro;
+    padding: 5px;
+    border-bottom: 2px dotted azure ;
+    border-top: 2px dotted azure ;
+}
+
+body{
+    background-color:azure;
+    margin: 0;
+}
+
+.foto-uvod{
+    width: 170px;
+    border-radius: 50%;
+    border: 2px dotted gray;
+    float: left;
+    margin: 0px 50px 20px 50px;
+}
+
+section{
+    padding:40px 15%;
+    overflow: auto;
+    border-bottom: 2px dotted azure ;
+    border-top: 2px dotted azure ;
+}
+
+.uvod{
+    font-size: 25px;
     text-align: center;
 }
 
-p{
+.zivotopis{
+    background-color: darkslategrey;
+    color: rgb(199, 243, 243);
+}
+
+.paticka {
+    background-color:rgb(83, 83, 83);
+    padding:5px 0;
+    color: rgb(199, 243, 243);
     text-align: center;
 }
+
+.kurzy{
+    text-align: right;
+    padding-left: 74%;
+}
+
+a{
+    color:aquamarine;
+}
+
+a:hover,
+a:focus,
+a:active{
+    background-color:gray; 
+}
+
+th{
+    color:gainsboro;
+    text-align: left;
+}
+
+.abs-kurzy{
+    text-align: right;
+}
+
+
+
