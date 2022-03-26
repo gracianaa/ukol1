@@ -1,4 +1,4 @@
-.hlavička{
+.hlavicka{
     text-align: center;
     background-color:darkslategrey;
     color:gainsboro;
@@ -13,9 +13,10 @@ body{
 }
 
 .foto-uvod{
-    width: 170px;
-    border-radius: 50%;
-    border: 2px dotted gray;
+    width: 150px;
+    border: 10px solid darkslategrey;
+    border-bottom: 35px solid darkslategrey;
+    box-shadow: -5px -5px grey;
     float: left;
     margin: 0px 50px 20px 50px;
 }
